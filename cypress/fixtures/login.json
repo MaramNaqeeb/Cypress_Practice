@@ -1,0 +1,51 @@
+[
+    {
+        "right_username":"Admin",
+        "right_password": "admin123",
+        "main_page_dashboard":"Dashboard"
+    },
+    
+    {
+        "lowerCase_username":"admin",
+        "right_password": "admin123",
+        "main_page_dashboard":"Dashboard"
+    },
+    
+    {
+        "wrong_username":"Ann",
+        "right_password": "admin123",
+        "validation_message":"Invalid credentials"
+    },
+  
+    
+    {
+        "right_username":"Admin",
+        "wrong_password": "adminAnn",
+        "validation_message":"Invalid credentials"
+
+    },
+    {
+        "wrong_username":"Ann",
+        "wrong_password": "adminAnn",
+        "validation_message":"Invalid credentials"
+    },
+    {
+        "empty_username": " ",
+        "right_password": "admin123",
+        "error_message":"Required"
+
+    },
+    {
+        "right_username":"Admin",
+        "empty_password": " ",
+        "error_message":"Required"
+
+    },
+    {
+        "empty_username":" ",
+        "empty_password": " ",
+        "validation_message":"Required"
+
+    }
+   
+]

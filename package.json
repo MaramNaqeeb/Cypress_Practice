@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "allure-commandline": "^2.24.0",
+    "cypress": "^12.14.0",
+    "node-xlsx": "^0.23.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1",
+    "xlsx": "^0.18.5"
+  }
+}
